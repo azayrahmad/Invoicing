@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aziz_Z3106\\OneDrive - Mitrais\\Documents\\Claim Competency 2021\\NUnit\\InvoicingProject\\Invoicing\\Invoicing.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aziz_Z3106\\OneDrive - Mitrais\\Documents\\Claim Competency 2021\\NUnit\\InvoicingProject\\Invoicing\\Invoicing.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aziz_Z3106\\OneDrive - Mitrais\\Documents\\Claim Competency 2021\\NUnit\\InvoicingProject\\Invoicing\\Invoicing.vbproj",
+        "projectName": "Invoicing",
+        "projectPath": "C:\\Users\\Aziz_Z3106\\OneDrive - Mitrais\\Documents\\Claim Competency 2021\\NUnit\\InvoicingProject\\Invoicing\\Invoicing.vbproj",
+        "packagesPath": "C:\\Users\\Aziz_Z3106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aziz_Z3106\\OneDrive - Mitrais\\Documents\\Claim Competency 2021\\NUnit\\InvoicingProject\\Invoicing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aziz_Z3106\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
