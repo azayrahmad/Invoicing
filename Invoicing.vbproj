@@ -4,21 +4,12 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Invoicing</RootNamespace>
-    <StartupObject>Invoicing.InvoicingStart</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="TestClass1.vb" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Tests\BusinessProcess_Employee_SubmitTS.vb.bak" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Tests\BusinessProcess_Employee_SubmitTS.vb.bak" />
   </ItemGroup>
 
   <ItemGroup>

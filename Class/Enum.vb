@@ -2,7 +2,8 @@
     Public Enum Status
         Created
         Submitted
-        Evaluated
+        Approved
+        Rejected
     End Enum
 
     Public Enum Approval

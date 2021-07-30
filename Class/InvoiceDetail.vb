@@ -1,4 +1,5 @@
 ﻿Public Class InvoiceDetail
+    Inherits Audit
     Public Property Description As String
     Public Property Id As Integer
     Public Property Price As Double

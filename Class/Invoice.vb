@@ -1,4 +1,5 @@
 ﻿Public Class Invoice
+    Inherits Audit
     Public Property BillFrom As String
     Public Property BillFromAddress As String
     Public Property BillFromContactEmail As String

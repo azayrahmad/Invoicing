@@ -5,7 +5,6 @@ C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\Inv
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\Invoicing.dll
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\ref\Invoicing.dll
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\Invoicing.pdb
-C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.vbproj.GenerateResource.cache
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.AssemblyInfoInputs.cache
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.AssemblyInfo.vb
@@ -14,9 +13,7 @@ C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\Inv
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\ref\Invoicing.dll
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.pdb
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.genruntimeconfig.cache
-C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.InvoicingStart.resources
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.vbproj.AssemblyReference.cache
-C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\obj\Debug\net5.0-windows\Invoicing.TimesheetCreate.resources
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
 C:\Users\Aziz_Z3106\OneDrive - Mitrais\Documents\Claim Competency 2021\NUnit\InvoicingProject\Invoicing\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
