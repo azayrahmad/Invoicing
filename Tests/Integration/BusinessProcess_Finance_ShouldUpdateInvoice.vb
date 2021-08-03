@@ -13,6 +13,9 @@ Public Class BusinessProcess_Finance_ShouldUpdateInvoice
 
     Public _listCommentToSubmit As New List(Of Comment)
 
+    Private Const oldBillFromContactPhone As String = "333 - 333 3333"
+    Private Const newBillFromContactPhone As String = "111 - 11111"
+
     <SetUp>
     Public Sub SetUpInvoices()
         ' Create invoice to approve
@@ -33,7 +36,7 @@ Public Class BusinessProcess_Finance_ShouldUpdateInvoice
             .BillFrom = mockUserFinance.FullName
             .BillFromAddress = "Sutomo St 33"
             .BillFromContactEmail = mockUserFinance.Email
-            .BillFromContactPhone = "333 - 333 3333"
+            .BillFromContactPhone = oldBillFromContactPhone
             .BillTo = mockEmployer
             .Comments = New List(Of Comment)
             mockInsertComment(_commentToSubmit, .Comments, .BillFrom)
@@ -60,12 +63,14 @@ Public Class BusinessProcess_Finance_ShouldUpdateInvoice
 
         ' Update invoice
         invoiceLoaded.InvoiceDetails.Add(invoiceDetailNew)
-        invoiceLoaded.BillFromContactPhone = "111 - 11111"
+        invoiceLoaded.BillFromContactPhone = newBillFromContactPhone
         mockUpdateInvoice(invoiceLoaded, mockUserFinance.FullName)
 
-        'Submit invoice
+        ' Submit invoice
         Dim invoiceUpdated As Invoice = mockLoadInvoiceFromList(invoiceLoaded.Id)
 
+        Assert.AreEqual(invoiceUpdated.BillFromContactPhone, newBillFromContactPhone)
+        Assert.AreNotEqual(invoiceUpdated.BillFromContactPhone, oldBillFromContactPhone)
     End Sub
 
 End Class

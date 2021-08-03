@@ -22,7 +22,6 @@ Public Class TimeSheet_ShouldCreateTimeSheet
             .TaskDescription = _TaskDescription
         End With
 
-
         mockInsertTimesheetToList(_timesheetCreated, mockUserEmployee.FullName)
 
         Dim _timesheetRetrieved As TimeSheet = mockLoadTimesheetFromList(mockUserEmployee.Id, _timesheetCreated.Number)
@@ -32,6 +31,20 @@ Public Class TimeSheet_ShouldCreateTimeSheet
         Assert.IsTrue(_timesheetRetrieved.HourPlanned = _HourPlanned)
         Assert.AreEqual(_timesheetRetrieved.TaskType, _TaskType)
         Assert.IsTrue(_timesheetRetrieved.Status = InvoicingEnum.Status.Created)
+
+    End Sub
+
+    <Test>
+    Public Sub TimeSheet_ShouldCreateEmptyTimeSheet()
+        ' Arrange
+        Dim _timesheetCreated As New TimeSheet
+
+        Assert.IsTrue(_timesheetCreated.Id = Nothing)
+        Assert.IsTrue(_timesheetCreated.Number = Nothing)
+        Assert.IsTrue(_timesheetCreated.HourActual = Nothing)
+        Assert.IsTrue(_timesheetCreated.HourPlanned = Nothing)
+        Assert.AreEqual(_timesheetCreated.TaskType, Nothing)
+        Assert.IsTrue(_timesheetCreated.Status = Nothing)
 
     End Sub
 

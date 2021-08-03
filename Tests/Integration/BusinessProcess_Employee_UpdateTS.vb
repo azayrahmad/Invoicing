@@ -4,22 +4,22 @@
 Public Class BusinessProcess_Employee_UpdateTS
     Inherits TestBase
 
-    Public mockTimesheetRejected As New TimeSheet
+    Public _timesheetRejected As New TimeSheet
     Public _timesheetRetrieved As New TimeSheet
     Public _timesheetSubmitted As New TimeSheet
 
     <SetUp>
     Public Sub SetUpRejectedTSToUpdate()
         ' Submit 2 timesheet
-        With mockTimesheetRejected
+        With _timesheetRejected
             .Id = mockUserEmployee.Id
             .HourActual = 6
             .HourPlanned = 8
             .TaskType = mockTasktypeNormalDay
             .TaskDescription = mockTasktypeNormalDay.Name
         End With
-        mockInsertTimesheetToList(mockTimesheetRejected, mockUserEmployee.Id)
-        mockSubmitTimeSheet(mockTimesheetRejected, mockUserEmployee.Id)
+        mockInsertTimesheetToList(_timesheetRejected, mockUserEmployee.Id)
+        mockSubmitTimeSheet(_timesheetRejected, mockUserEmployee.Id)
 
     End Sub
 
@@ -27,7 +27,7 @@ Public Class BusinessProcess_Employee_UpdateTS
     Public Sub BusinessProcess_Employee_UpdateTS()
 
         ' Search timesheet
-        _timesheetRetrieved = mockLoadTimesheetFromList(mockTimesheetRejected.Id, mockTimesheetRejected.Number)
+        _timesheetRetrieved = mockLoadTimesheetFromList(_timesheetRejected.Id, _timesheetRejected.Number)
 
         ' Update timesheet
         _timesheetRetrieved.HourActual = 8

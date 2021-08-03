@@ -20,4 +20,19 @@
     Public Sub SetInvoiceStatus(AutoPropertyValue As InvoicingEnum.Approval)
         _InvoiceStatus = AutoPropertyValue
     End Sub
+
+    Public Function GetGrandTotal() As Double
+        Dim grandTotal As Double = 0
+        For Each detail As InvoiceDetail In InvoiceDetails
+            grandTotal += detail.GetTotal()
+        Next
+
+        Return grandTotal
+    End Function
+
+    Public Sub New()
+        Me.Comments = New List(Of Comment)
+        Me.InvoiceDetails = New List(Of InvoiceDetail)
+    End Sub
+
 End Class
